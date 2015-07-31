@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Project/%5B완료%5DAndroidUserGuideMain_ver3.4/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">가이드북</string>
+    <string name="hello">Hello World, AndroidUserGuideMain!</string>
+</resources>

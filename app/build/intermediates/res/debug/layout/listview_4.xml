@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+    <!--  추천어플 레이아웃 -->
+    <ListView
+    	android:background="#FFFFFF"
+    	android:cacheColorHint="#00000000"
+    	android:id="@+id/ListView03"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+
+</LinearLayout><!-- From: file:/D:/Project/%5B완료%5DAndroidUserGuideMain_ver3.4/app/src/main/res/layout/listview_4.xml -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_gravity="center"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_vertical|center_horizontal"
+  android:background="@drawable/main480_800">
+  
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  	android:layout_marginBottom="0sp"
+  	android:layout_marginLeft="6sp">
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp" 
+            android:background="@drawable/micon_01" 
+            android:id="@+id/Button01" 
+            android:layout_x="10sp" 
+            android:layout_y="47sp">
+        </ImageButton>
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp"  
+            android:background="@drawable/micon_02" 
+            android:id="@+id/Button02" 
+            android:layout_x="110sp" 
+            android:layout_y="47sp">
+        </ImageButton>
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp" 
+            android:background="@drawable/micon_03" 
+            android:id="@+id/Button03" 
+            android:layout_x="210sp" 
+            android:layout_y="47sp">
+        </ImageButton>
+    </LinearLayout>
+  
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="170sp"
+  	android:layout_marginLeft="6sp"
+  	>
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp"
+            android:background="@drawable/micon_04" 
+            android:id="@+id/Button05" 
+            android:layout_x="10sp" 
+            android:layout_y="160sp">
+        </ImageButton>
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp"  
+            android:background="@drawable/micon_05" 
+            android:id="@+id/Button04" 
+            android:layout_x="110sp" 
+            android:layout_y="160sp">
+        </ImageButton>
+
+        <ImageButton 
+            android:layout_height="100sp"
+            android:layout_width="100sp"  
+            android:background="@drawable/micon_06" 
+            android:id="@+id/Button06" 
+            android:layout_x="210sp" 
+            android:layout_y="160sp">
+        </ImageButton>
+        
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
+<!-- From: file:/D:/Project/%5B완료%5DAndroidUserGuideMain_ver3.4/app/src/main/res/layout/submain.xml -->

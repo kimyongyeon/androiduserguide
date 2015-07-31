@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/LinearLayout01"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:gravity="center_vertical"
+  android:layout_height="50dip">
+
+<!-- 2011/06/08 추가  -->  	
+	<TextView
+  		android:id="@+id/TextView10"
+  		android:layout_marginLeft="15px"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textSize="11sp"
+		android:textColor="#000000"/>
+
+	<TextView
+  		android:id="@+id/TextView11"
+  		android:layout_marginLeft="15px"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textSize="15px"
+  		android:textColor="#CC0000"
+		/>
+
+		
+</LinearLayout>

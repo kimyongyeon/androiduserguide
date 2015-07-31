@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/LinearLayout01"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<ImageView
+  		android:id="@+id/ImageView03"
+  		android:layout_width="50sp"
+  		android:layout_height="50sp"
+  		android:padding="2dip"
+  	/>
+  	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:background="#FFFFFF"
+  		>
+	  	<TextView
+	  		android:id="@+id/TextView02"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="25px"
+	  		android:layout_marginTop="10px"
+			android:textColor="#000000"/>
+		<TextView
+	  		android:id="@+id/TextView03"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="15px"
+			android:textColor="#000000"/>
+	</LinearLayout>		
+</LinearLayout>
+<!-- From: file:/D:/Project/%5B완료%5DAndroidUserGuideMain_ver3.4/app/src/main/res/layout/list_row.xml -->
